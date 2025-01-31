@@ -637,11 +637,11 @@ pre.tb-highlight {
   .mat-toolbar.mat-primary {
     button.mat-mdc-icon-button {
       .mat-icon {
-        color: white;
+        color: #264363;
       }
     }
     .mat-mdc-select-value, .mat-mdc-select-arrow, .mat-mdc-select-arrow:after {
-      color: white;
+      color: #264363;
     }
     .mat-mdc-text-field-wrapper {
       &.mdc-text-field--outlined {
@@ -649,7 +649,7 @@ pre.tb-highlight {
           &:not(:hover) {
             .mdc-notched-outline {
               .mdc-notched-outline__leading, .mdc-notched-outline__trailing {
-                border-color: white;
+                border-color: #264363;
               }
             }
           }
