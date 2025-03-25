@@ -86,3 +86,22 @@
   }
 }
 
+:host {
+  color: black !important; // Applies black color to all text inside the login component
+}
+
+.tb-login-content {
+  color: black !important; // Ensures text in login form is black
+}
+
+.tb-login-form input,
+.tb-login-form label,
+.tb-login-form .mat-form-field-label {
+  color: black !important;
+}
+.material-icons, .mat-icon {
+  color: black !important;
+}
+
+
+
