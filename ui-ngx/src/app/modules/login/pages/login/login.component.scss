@@ -103,5 +103,22 @@
   color: black !important;
 }
 
+::ng-deep .mat-form-field-label {
+  color: black !important;  // Ensures placeholders are black
+  opacity: 1 !important;    // Prevents transparency
+}
+
+::ng-deep .mat-input-element::placeholder {
+  color: black !important;  // Ensures the actual input placeholder is black
+  opacity: 1 !important;
+}
+
+.forgot-password {
+  color: black !important;
+}
+
+.tb-reset-password {
+  color: black !important;
+}
 
 
