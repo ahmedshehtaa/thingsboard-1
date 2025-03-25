@@ -53,9 +53,23 @@ $tb-mat-indigo: (
     A700: #305680,
   )
 );
-
+$tb-dark-blue: (
+  50: #e3eaf5,
+  100: #b9cbea,
+  200: #8ea8de,
+  300: #6484d2,
+  400: #4368c8,
+  500: #003366, // Dark Blue
+  600: #002e5f,
+  700: #00284f,
+  800: #00213f,
+  900: #00172d,
+  contrast: (
+    500: #ffffff, // White text on dark blue
+  )
+);
 $tb-primary: mat.m2-define-palette($tb-mat-indigo);
-$tb-accent: mat.m2-define-palette(mat.$m2-deep-orange-palette);
+$tb-accent: mat.m2-define-palette($tb-dark-blue);
 
 $background: (background: map_get(mat.$m2-grey-palette, 200));
 
