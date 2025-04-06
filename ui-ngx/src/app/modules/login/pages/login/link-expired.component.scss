@@ -30,3 +30,17 @@
     }
   }
 }
+:host {
+  color: black !important; // Ensures all text inside the component is black
+}
+
+.tb-link-expired-content {
+  color: black !important;
+}
+
+.tb-link-expired-message {
+  color: black !important;
+}
+.material-icons, .mat-icon {
+  color: black !important;
+}
