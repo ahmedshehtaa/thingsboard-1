@@ -85,3 +85,20 @@
     }
   }
 }
+
+:host {
+  color: black !important; // Ensures text color is black globally for this component
+}
+
+.tb-two-factor-auth-content {
+  color: black !important;
+}
+
+.tb-two-factor-auth-title,
+.tb-two-factor-auth-message,
+.mat-form-field-label {
+  color: black !important;
+}
+.material-icons, .mat-icon {
+  color: black !important;
+}
